@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Site</title>
+</head>
+<body>
+    <div id="preloader"></div>
+    <nav class="navbar-container">
+        <ul class="navbar">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <img class="image-nav" src="icons-navbar/thumb2.png">
+                    <span class="link-text"> Home </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <img class="image-nav" src="icons-navbar/thumb3.png">
+                    <span class="link-text"> Projects </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <img class="image-nav" src="icons-navbar/thumb4.png">
+                    <span class="link-text"> Contact </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <img class="image-nav" src="icons-navbar/thumb2.png">
+                    <span class="link-text"> Settings </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+            <div class="wrapper">
+                <div class="card">
+                    <img class="banner-img" src="body/personal_banner.png">
+                    <div class="info">
+                    <h1>Hello! 😊</h1>
+                    <p>I'm Diego, an aspiring full-stack engineer! I believe in fun, creative web-dev and design, I aspire to bring a little bit of me in every project I create!</p>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+    </main>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            setTimeout(function() {
+                loader.classList.add("fade-out");
+                loader.style.pointerEvents = "none"; // Prevent interactions with the preloader
+            }, 6000); // Adjust the duration (in milliseconds) as needed
+        });
+    </script>    
+</body>
+</html>
