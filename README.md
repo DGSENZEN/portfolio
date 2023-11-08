@@ -4,8 +4,8 @@ It is suscept to extreme changes, but so far work has been smooth
 
 TO-DO:
 
--add portfolio page
--add about me page
--add mobile functionality
+-add portfolio page (done)
+-add about me page (done)
+-add mobile functionality (done)
 -add settings
 -add optional night mode
